@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Primer proyecto de NODEJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platon-actual/guia-hoteles.git"
+  },
+  "author": "Ramiro Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platon-actual/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/platon-actual/guia-hoteles#readme"
+}
