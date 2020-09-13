@@ -4,6 +4,8 @@
   "description": "Primer proyecto de NODEJS",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/platon-actual/guia-hoteles/issues"
   },
-  "homepage": "https://github.com/platon-actual/guia-hoteles#readme"
+  "homepage": "https://github.com/platon-actual/guia-hoteles#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
