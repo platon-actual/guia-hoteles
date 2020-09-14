@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Hello, world!</title>
   </head>
@@ -15,7 +16,7 @@
       <h1>Hello, world!</h1>
 
       <div class="container">
-        <div class="row">
+        <div class="d-flex">
           <div class="col">
             Primer columna
           </div>
@@ -26,28 +27,92 @@
             tercer columna
           </div>
         </div>
-        <!-- aca van la "lista de hoteles" que dice el fumeta-->
-        <hr> <!-- una division para separar abajo-->
-        <div class="row">
-          <div class="col">
+      </div> <!-- este es el cierre del div container-->
+
+    </div>
+      <!-- aca van la "lista de hoteles" que dice el fumeta-->
+      <hr> <!-- una division para separar abajo-->
+      <div class="d-flex flex-wrap">
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
             <h2> Un hotel</h2>
             <p> Es un gran hotel.</p>
-            <button class="btn btn-primary">Boton 1</button>
           </div>
-          <div class="col">
+
+          <div><button class="btn boton-reserva">Boton 1</button></div>
+        </div>
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
             <h2> Otro hotel</h2>
             <p> Es un lindo hotel.</p>
-            <button class="btn btn-primary">Boton 2</button>
           </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
         </div>
-      </div> <!-- este es el cierre del div container-->
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2> Hotel en la luna</h2>
+            <p> Es un lindo hotel. Hay que usar traje.</p>
+          </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
+        </div>
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2> Hostel</h2>
+            <p> Es un hostel. Se paga por adelantado, pero as&iacute; es la vida.</p>
+          </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
+        </div>
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2> Hostel 2</h2>
+            <p> Es un hostel. Se paga por adelantado, pero as&iacute; es la vida.</p>
+          </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
+        </div>
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2> Hostel 3</h2>
+            <p> Es un hostel. Se paga por adelantado, pero as&iacute; es la vida.</p>
+          </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
+        </div>
+        <div class="col card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2> Hostel 4</h2>
+            <p> Es un hostel. Se paga por adelantado, pero as&iacute; es la vida.</p>
+          </div>
+          <div><button class="btn boton-reserva">Boton 2</button></div>
+        </div>
+      </div>
+
       <hr> <!-- una division para separar abajo-->
 
 
 
       <hr> <!-- una division para separar abajo-->
       <h2> Ahora un poco de texto de relleno</h2>
-    </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-sm-4 d-flex flex-column">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.google.com">google+</a>
+          </div>
+          <div class="col-sm-4">
+            <address>
+              Ciudad De La Paz 666, CABA, Argentina.
+              +54 911 8888 6666
+              contacto@guiahoteles.com
+            </address>
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-end">
+            <a href="https://www.facebook.com">Sobre nosotros</a>
+            <a href="https://www.twitter.com">Precios</a>
+            <a href="https://www.google.com">Términos y condiciones</a>
+          </div>
+        </div>
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
